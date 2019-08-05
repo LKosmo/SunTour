@@ -1,0 +1,203 @@
+@charset "UTF-8";
+body {
+  margin: 0; }
+
+.gray {
+  color: #777777; }
+
+.uper {
+  text-transform: uppercase; }
+
+.space-between {
+  display: flex;
+  justify-content: space-between; }
+
+.underline {
+  border-bottom: 1px solid #777777; }
+
+.logo {
+  height: 105px;
+  background: #00bff3;
+  display: flex;
+  align-items: center; }
+  .logo .inf {
+    width: 1040px;
+    display: flex;
+    align-items: center;
+    margin: auto; }
+    .logo .inf .sun {
+      width: 180px;
+      height: 45px; }
+    .logo .inf p {
+      color: #fff;
+      font-size: 18px;
+      margin-left: 20px; }
+    .logo .inf .tel {
+      font-size: 32px;
+      margin-left: 170px; }
+    .logo .inf .collback {
+      border-bottom: 1px dotted #fff;
+      margin-left: 37px; }
+    .logo .inf .social {
+      margin-left: 68px; }
+      .logo .inf .social img {
+        margin-right: 3px; }
+
+.content {
+  width: 1040px;
+  margin: auto;
+  z-index: 1;
+  position: absolute;
+  left: 120px; }
+  .content .imageblock .tyr {
+    border-radius: 100%;
+    width: 230px;
+    height: 230px;
+    background-color: yellow;
+    z-index: 2;
+    position: absolute;
+    top: 273px;
+    left: 28px;
+    text-align: center; }
+    .content .imageblock .tyr .ty {
+      font-size: 25px;
+      font-weight: bold;
+      margin-top: 30px;
+      margin-bottom: 20px; }
+    .content .imageblock .tyr .ko {
+      font-size: 14px;
+      font-weight: bold;
+      margin-bottom: 5px; }
+    .content .imageblock .tyr .z {
+      font-size: 23px;
+      font-weight: bold;
+      background-color: black;
+      color: #fff;
+      width: max-content;
+      margin: auto;
+      padding-top: 3px;
+      padding-left: 15px;
+      padding-right: 15px;
+      padding-bottom: 2px; }
+  .content .textblock {
+    display: grid;
+    grid-template-columns: 53% 50%; }
+    .content .textblock .aqua {
+      margin-top: 19px; }
+      .content .textblock .aqua p {
+        font-size: 35px;
+        font-weight: bold;
+        margin: 0;
+        margin-right: 20px; }
+      .content .textblock .aqua .img {
+        height: 30px;
+        display: flex; }
+    .content .textblock .like ul {
+      list-style: none;
+      margin-top: 30px;
+      padding: 0;
+      margin-bottom: 30px;
+      align-items: center; }
+      .content .textblock .like ul p {
+        margin: 0; }
+      .content .textblock .like ul .blubox {
+        background: #00bff3;
+        color: #fff;
+        border-radius: 3px;
+        font-size: 25px;
+        padding: 10px; }
+    .content .textblock .day {
+      font-size: 100px;
+      text-align: center;
+      margin-top: -43px;
+      margin-left: 108px; }
+      .content .textblock .day p {
+        margin: 0; }
+      .content .textblock .day .sund {
+        font-size: 33px;
+        color: black;
+        margin-top: -15px;
+        margin-left: 5px; }
+  .content .block p {
+    font-size: 30px;
+    display: flex;
+    margin-top: 17px;
+    margin-bottom: 0; }
+  .content .block .big {
+    font-size: 50px;
+    margin: 0; }
+  .content .block .small {
+    font-size: 15px;
+    margin-top: 5px; }
+  .content .block .line {
+    font-size: 22px;
+    text-decoration: line-through red;
+    margin: 0; }
+  .content .text h1 {
+    font-size: 50px;
+    margin-top: 50px;
+    margin-bottom: 3px; }
+  .content .text .info {
+    display: grid;
+    grid-template-columns: 75% 25%; }
+    .content .text .info .chemical p {
+      margin: 0;
+      margin-bottom: 8px;
+      margin-top: 18px; }
+    .content .text .info .chemical h2, .content .text .info .chemical h3 {
+      margin-bottom: 0; }
+    .content .text .info .chemical .blue {
+      background-color: #f0fbfe;
+      border-left: 3px solid #33ccf5;
+      margin-left: 25px;
+      margin-top: 9px;
+      padding-top: 12px;
+      padding-bottom: 20px;
+      padding-left: 10px; }
+    .content .text .info .chemical table {
+      border-collapse: collapse;
+      width: 100%;
+      margin-top: 33px;
+      margin-bottom: 25px;
+      font-size: 14px; }
+      .content .text .info .chemical table td {
+        padding: 5px;
+        text-align: left;
+        border-bottom: 1px solid #ddd;
+        padding-left: 15px; }
+      .content .text .info .chemical table th {
+        background-color: #ebebeb;
+        padding: 5px;
+        text-align: left;
+        border-bottom: 1px solid #ddd; }
+    .content .text .info .chemical ul {
+      list-style: none;
+      margin: 0;
+      padding-left: 10px;
+      margin-bottom: 40px; }
+      .content .text .info .chemical ul li {
+        padding-bottom: 5px; }
+        .content .text .info .chemical ul li::before {
+          content: "––";
+          padding-right: 5px; }
+    .content .text .info .women {
+      padding-top: 200px;
+      padding-left: 55px; }
+      .content .text .info .women .big {
+        font-size: 110px;
+        margin: 0; }
+      .content .text .info .women .midle {
+        font-size: 30px;
+        margin: 0;
+        color: black; }
+      .content .text .info .women p {
+        font-size: 22px;
+        margin: 0;
+        color: #c7c7c7; }
+  .content .footer {
+    border-top: 1px solid #777777;
+    display: flex;
+    justify-content: flex-end; }
+    .content .footer img {
+      margin-top: 10px;
+      margin-left: 10px; }
